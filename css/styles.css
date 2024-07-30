@@ -24,7 +24,7 @@ h2{
 }
 
 h3{
-    font-size: 2.4em;
+    font-size: 2.6em;
     color: var(--main-color);
 }
 
@@ -44,10 +44,11 @@ a{
 
 header{
     background-color: var(--main-color);
-    padding: 5px 0;
+    padding: 8px 0;
     width: 100%;
     position: sticky;
     top: 0;
+    border-bottom: 2px solid white;
 }
 
 header .container{
@@ -69,13 +70,83 @@ header nav a {
     padding: 0 0.5em; 
 }
 
+header nav a:hover{
+    color: color-mix(in srgb, var(--main-color) 50%, white )
+}
+
 /* Main */
+
+
+.guia{
+    background-color: #111;
+    margin-top: 1.5em;
+    padding: 2em;
+    border-radius: 2em;
+    border: 0.3em solid var(--main-color);
+}
+
+.guia h3{
+    margin: 0;
+}
+
+.guia ul{
+    list-style: none;
+}
+
+.guia li{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.guia p{
+    font-size: 1.2em;
+}
+
+.guia .li-ratio{
+    width: 7em;
+    text-align: right;
+}
+
+main .nombre-cancion{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+main .link-grupo{
+    color: #666;
+    margin: 1em 0;
+    padding-left: 1em;
+}
+
+main .link-grupo p{
+    margin: 0;
+}
+
+main .link-unidad{
+    display: flex;
+}
+
+main .link-unidad > *{
+    padding-right: 1em;
+}
+
+main a{
+    color: color-mix(in srgb, var(--main-color) 50%, white );
+    
+}
+main a:hover{
+    color: var(--main-color);
+}
+
 
 main ul{
     padding-left: 1em;
 }
 
-main ul li{
+main .repertorio ul li{
     margin-bottom: 0.25em;
     font-size: 1.2em;
 }
@@ -88,9 +159,10 @@ main h3{
 /* Footer */
 
 footer{
-    margin-top: 25em;
+    margin-top: 20em;
     background-color: var(--main-color);
     padding: 1em;
+    border-top: 2px solid white;
 }
 
 footer .container{
