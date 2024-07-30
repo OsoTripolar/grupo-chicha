@@ -105,14 +105,20 @@ header nav a:hover{
 }
 
 .guia .li-ratio{
-    width: 7em;
+    width: 7.5em;
     text-align: right;
+    position: relative;
+    top: -0.1em;
 }
 
 main .nombre-cancion{
     margin: 0;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+main .li-ratio{
+    margin-right: 1em;
 }
 
 main .link-grupo{

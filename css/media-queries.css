@@ -1,0 +1,59 @@
+@media (max-width: 760px) {
+
+    :root{
+        /* --main-color: rgb(245, 184, 0); */
+    }
+
+    header{
+        position: static;
+    }
+
+    header .container{
+        flex-direction: column;
+    }
+
+
+    header .container .logo{
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a{
+        text-align: center;
+    }
+
+
+
+
+    .guia{
+        padding: 1em;
+    }
+
+
+    .guia li{
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 1em;
+        
+    }
+
+    .guia .li-ratio{
+        text-align: left;
+        position: relative;
+        top: -0.1em;
+    }
+
+    main h3{
+        scroll-margin-top: 0.5em;
+    }
+    
+    main .link-unidad{
+        flex-direction: column;
+    }
+
+}
