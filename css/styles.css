@@ -49,6 +49,7 @@ header{
     position: sticky;
     top: 0;
     border-bottom: 2px solid white;
+    z-index: 1;
 }
 
 header .container{
@@ -133,6 +134,7 @@ main .link-grupo p{
 
 main .link-unidad{
     display: flex;
+    margin-bottom: 0.5em;
 }
 
 main .link-unidad > *{
@@ -160,6 +162,10 @@ main .repertorio ul li{
 main h3{
     scroll-margin-top: 1.5em;
     margin-bottom: 0;
+}
+
+main em{
+    font-style: normal;
 }
 
 /* Footer */

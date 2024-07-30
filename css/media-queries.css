@@ -27,9 +27,6 @@
         text-align: center;
     }
 
-
-
-
     .guia{
         padding: 1em;
     }
@@ -55,5 +52,10 @@
     main .link-unidad{
         flex-direction: column;
     }
+
+    main .link-unidad p{
+        margin-top: 0.3em;
+    }
+
 
 }
