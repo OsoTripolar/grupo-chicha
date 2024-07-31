@@ -1,9 +1,5 @@
 @media (max-width: 760px) {
 
-    :root{
-        /* --main-color: rgb(245, 184, 0); */
-    }
-
     header{
         position: static;
     }
